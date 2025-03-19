@@ -1,57 +1,65 @@
-
-
-# Bootcamp UX Developer - Projeto Java - Para praticar conceitos de POO
+# 🏆 Bootcamp UX Developer - Projeto Java
 
 Este projeto é uma simulação de um sistema de bootcamp para desenvolvedores, onde os participantes podem se inscrever em cursos e mentorias, progredir no conteúdo e calcular sua experiência total (XP).
 
+---
+
 ## 🚀 Funcionalidades
 
-- **Cursos e Mentorias**: Criação de cursos e mentorias com título, descrição, carga horária (para cursos) e data (para mentorias).
-- **Inscrição em Bootcamp**: Os desenvolvedores podem se inscrever em um bootcamp, que contém uma lista de cursos e mentorias.
-- **Progressão**: Os desenvolvedores podem progredir nos conteúdos, marcando-os como concluídos.
-- **Cálculo de XP**: O sistema calcula a experiência total (XP) do desenvolvedor com base nos conteúdos concluídos.
+✅ **Cursos e Mentorias**: Criação de cursos e mentorias com título, descrição, carga horária (para cursos) e data (para mentorias).  
+✅ **Inscrição em Bootcamp**: Desenvolvedores podem se inscrever em um bootcamp que contém uma lista de cursos e mentorias.  
+✅ **Progressão**: Desenvolvedores podem progredir nos conteúdos, marcando-os como concluídos.  
+✅ **Cálculo de XP**: O sistema calcula a experiência total (XP) do desenvolvedor com base nos conteúdos concluídos.  
 
-## 📋 Estrutura do Projeto
+---
 
-O projeto é organizado da seguinte forma:
+## 📂 Estrutura do Projeto
+
+O projeto está organizado da seguinte forma:
 
 ```
 src/
   bootcamp/
-    Conteudo.java       // Classe abstrata que define atributos e métodos comuns.
-    Curso.java          // Classe que representa um curso.
-    Mentoria.java       // Classe que representa uma mentoria.
-    Bootcamp.java       // Classe que representa um bootcamp.
-    Dev.java            // Classe que representa um desenvolvedor.
-    Main.java           // Classe principal para execução do programa.
+    ├── Conteudo.java       // Classe abstrata que define atributos e métodos comuns
+    ├── Curso.java          // Classe que representa um curso
+    ├── Mentoria.java       // Classe que representa uma mentoria
+    ├── Bootcamp.java       // Classe que representa um bootcamp
+    ├── Dev.java            // Classe que representa um desenvolvedor
+    └── Main.java           // Classe principal para execução do programa
 ```
+
+---
 
 ## 🛠️ Como Executar o Projeto
 
-### Pré-requisitos
+### 🔹 Pré-requisitos
 
-- **Java Development Kit (JDK)**: Certifique-se de ter o JDK instalado. Recomenda-se a versão 11 ou superior.
-- **IDE**: Use uma IDE como [Visual Studio Code](https://code.visualstudio.com/) ou [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+- **Java Development Kit (JDK)**: Certifique-se de ter o JDK instalado (recomenda-se a versão 11 ou superior).
+- **IDE**: Utilize uma IDE como [Visual Studio Code](https://code.visualstudio.com/) ou [IntelliJ IDEA](https://www.jetbrains.com/idea/).
 
-### Passos para Execução
+### 🔹 Passos para Execução
 
-1. Clone o repositório:
-  
-
-2. Navegue até o diretório do projeto:
+1. **Clone o repositório:**
    ```bash
-   cd seu-repositorio
+   git clone https://github.com/cami-la/desafio-poo-dio.git
    ```
 
-3. Compile o código:
+2. **Navegue até o diretório do projeto:**
+   ```bash
+   cd desafio-poo-dio
+   ```
+
+3. **Compile o código:**
    ```bash
    javac src/bootcamp/*.java
    ```
 
-4. Execute o programa:
+4. **Execute o programa:**
    ```bash
    java -cp src bootcamp.Main
    ```
+
+---
 
 ## 📝 Exemplo de Saída
 
@@ -71,18 +79,33 @@ Conteúdos Concluídos João: [Curso{titulo='curso java', descricao='descrição
 XP total de João: 90.0
 ```
 
+---
+
 ## 🛑 Problemas Conhecidos
 
-- O método `setCargaHoraria` não está disponível na classe `Mentoria`. Isso é intencional, pois mentorias não possuem carga horária.
-- O cálculo de XP é baseado em valores fixos. Você pode personalizar a lógica na classe `Conteudo`.
+⚠️ O método `setCargaHoraria` não está disponível na classe `Mentoria`, pois mentorias não possuem carga horária.  
+⚠️ O cálculo de XP é baseado em valores fixos. Você pode personalizar a lógica na classe `Conteudo`.  
+
+---
 
 ## 🤝 Como Contribuir
 
-1. Faça um fork do projeto.
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
-3. Commit suas mudanças (`git commit -m 'Adicionando nova feature'`).
-4. Push para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
+1. Faça um **fork** do projeto.
+2. Crie uma **branch** para sua feature:
+   ```bash
+   git checkout -b feature/nova-feature
+   ```
+3. Commit suas mudanças:
+   ```bash
+   git commit -m "Adicionando nova feature"
+   ```
+4. Push para a branch:
+   ```bash
+   git push origin feature/nova-feature
+   ```
+5. Abra um **Pull Request**.
+
+---
 
 ## 📄 Licença
 
@@ -90,8 +113,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Este desafio foi criado por ❤️ por [Camila ](https://github.com/cami-la).
-```
-se encontra neste repositório : https://github.com/cami-la/desafio-poo-dio
----
+Criado com ❤️ por [Camila](https://github.com/cami-la).
 

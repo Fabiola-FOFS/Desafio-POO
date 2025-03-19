@@ -22,6 +22,7 @@ public class Main {
        mentoria.setCargaHoraria(7);
        mentoria.setData(LocalDate.now()); // vai atribuir a data da criação do objeto
 
+       //Conteudo conteudo = new Curso(); // polimorfismo tudo o que tem em Conteudo terá em curso
 
 
 

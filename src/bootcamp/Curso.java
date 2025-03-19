@@ -5,6 +5,11 @@ public class Curso {
     private String descricao;
     private int cargaHoraria;
 
+   
+   public Curso() {
+
+   }
+   
     // Getters e Setters
     public String getTitulo() {
         return titulo;

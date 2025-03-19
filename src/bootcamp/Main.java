@@ -1,5 +1,7 @@
 package bootcamp;
 
+import java.time.LocalDate;
+
 public class Main {
    public static void main(String[] args) {
        // Criação do curso1
@@ -14,9 +16,19 @@ public class Main {
        curso2.setDescricao("descrição curso de logica");
        curso2.setCargaHoraria(5);
 
+       Mentoria mentoria = new Mentoria();
+       mentoria.setTitulo("mentoria UX");
+       mentoria.setDescricao("descrição mentoria de UX");
+       mentoria.setCargaHoraria(7);
+       mentoria.setData(LocalDate.now()); // vai atribuir a data da criação do objeto
+
+
+
+
        // Exibição dos cursos
        System.out.println(curso1);
        System.out.println(curso2);
+       System.out.println(mentoria);
    }
 }
 

@@ -1,12 +1,15 @@
 package bootcamp;
+
 import java.time.LocalDate;
 
 public class Mentoria {
-    private String titulo; // Adicione o tipo String
+    // Atributos da classe
+    private String titulo;
     private String descricao;
     private int cargaHoraria;
     private LocalDate data;
 
+    // Constante para o cálculo de XP
     private static final double XP_PADRAO = 10.0;
 
     // Construtor vazio
@@ -51,7 +54,7 @@ public class Mentoria {
         this.data = data;
     }
 
-    // Método toString
+    // Método toString para representação em string do objeto
     @Override
     public String toString() {
         return "Mentoria{" +

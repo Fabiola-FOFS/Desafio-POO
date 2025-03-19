@@ -1,0 +1,49 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/java,visualstudiocode
+# Edite em https://www.toptal.com/developers/gitignore?templates=java,visualstudiocode
+
+### Java ###
+# Arquivo de classe compilado
+*.aula
+
+# Arquivo de log
+*.registro
+
+# Arquivos BlueJ
+*.ctxt
+
+# Ferramentas móveis para Java (J2ME)
+.mtj.tmp/
+
+# Arquivos de pacote #
+*.jar
+*.guerra
+*.nar
+*.orelha
+*.zip
+*.tar.gz
+*.rar
+
+# logs de falhas da máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+repetição_pid*
+
+### Código do VisualStudio ###
+.vscode/*
+!.vscode/configurações.json
+!.vscode/tarefas.json
+!.vscode/launch.json
+!.vscode/extensões.json
+!.vscode/*.trechos-de-código
+
+# Histórico local para o Visual Studio Code
+.história/
+
+# Extensões de código do Visual Studio criadas
+*.vsix
+
+### Patch do VisualStudioCode ###
+# Ignorar todo o histórico local de arquivos
+.história
+.ionídeo
+
+# Fim de https://www.toptal.com/developers/gitignore/api/java,visualstudiocode
